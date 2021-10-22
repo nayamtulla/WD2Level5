@@ -1,0 +1,30 @@
+
+
+<main class="TodoAppPage Main">
+      <article>
+        <h1 class="TodoAppPage-title">My Todo Manager App</h1>
+        <section class="AddTodoItem">
+          <input class="AddTodoItem-text" type="text" placeholder="What's next?" />
+          <input class="AddTodoItem-date" type="date" />
+          <input class="AddTodoItem-button" type="button" value="Add" />
+        </section>
+        <%= render partial: "todo_item-section", locals: {
+                     section_title: "Overdue",
+                     todo_items: Todo.overdue,
+                     show_due_date: true,
+                   } %>
+        <%= render partial: "todo_item-section", locals: {
+                     section_title: "Due Today",
+                     todo_items: Todo.due_today,
+                     show_due_date: false,
+                   } %>
+
+        <%= render partial: "todo_item-section", locals: {
+                     section_title: "Due Later",
+                     todo_items: Todo.due_later,
+                     show_due_date: true,
+                   } %>
+
+
+      </article>
+    </main>

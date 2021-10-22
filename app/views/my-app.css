@@ -1,0 +1,28 @@
+body {
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.TodoAppPage-title {
+  font-size: 48px;
+  line-height: 1.7;
+  color: #ADC2A9;
+}
+
+.TodoAppSection-title {
+  font-size: 34px;
+  line-height: 1.3;
+  color: #ADC2A9;
+}
+
+.TodoAppSection-todo {
+  font-size: 20px;
+  line-height: 1.3;
+  margin-left: 32px;
+  color: #ADC2A9;
+}
+
+.TodoAppSection{
+  margin-left: 32px;
+  margin-bottom: 32px;
+}

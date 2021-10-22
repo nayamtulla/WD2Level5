@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Management App</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="todo-app.css" />
+  </head>
+  <body>
+    <main class="TodoPage Main">
+      <article>
+        <h1 class="TodoPage-title">My To-do List</h1>
+        <section class="AddTodo">
+          <input class="AddTodo-text" type="text" placeholder="What's next?" />
+          <input class="AddTodo-date" type="date" />
+          <input class="AddTodo-button" type="button" value="Add" />
+        </section>
+        <section class="TodoSection">
+          <div class="TodoSectionTitle">
+            <p class="TodoSectionTitle-text">Due Today</p>
+            <p class="TodoSectionTitle-remainingCount">0/4</p>
+          </div>
+
+          <ul>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox" />
+                Submit LITE WD201 HTML CSS Work
+                <p class="TodoItem-overdueLabel">Overdue</p>
+              </label>
+            </li>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox" />
+                Prepare Series test timetable
+                <img src="delete.png" alt="Delete" width="25" height="30" />
+              </label>
+            </li>
+          </ul>
+
+          <div class="TodoSectionTitle">
+            <p class="TodoSectionTitle-text">Due Tomorrow</p>
+            <p class="TodoSectionTitle-remainingCount">0/3</p>
+          </div>
+
+          <ul>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox" />
+                Attend LITE Meeting
+              </label>
+            </li>
+          </ul>
+
+          <div class="TodoSectionTitle">
+            <p class="TodoSectionTitle-text">Remaining</p>
+            <p class="TodoSectionTitle-remainingCount">0/3</p>
+          </div>
+
+          <ul>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox" />
+                Value answer papers
+                <p class="TodoItem-remainingLabel">Nov 11</p>
+              </label>
+            </li>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox" />
+                Schedule project evaluation
+                <p class="TodoItem-remainingLabel">Nov 12</p>
+              </label>
+            </li>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox" />
+                Pay KSEB bill
+                <p class="TodoItem-remainingLabel">Nov 15</p>
+              </label>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
