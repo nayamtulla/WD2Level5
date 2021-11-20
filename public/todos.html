@@ -2,105 +2,101 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Todo Management App</title>
-  <link rel="stylesheet" type="text/css" href="reset.css" />
-  <link rel="stylesheet" type="text/css" href="todo-app.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Todo Management App</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="todo_app.css">
 </head>
 
 <body>
-  <main class="TodoPage Main">
+  <main class="TodoPgeMain">
     <article>
-      <h1 class="TodoPage-title">My To-do List</h1>
+      <h1 class="TodoPage-title"> My Todo-List</h1>
       <section class="AddTodo">
-        <input class="AddTodo-text" type="text" placeholder="What's next?" />
-        <input class="AddTodo-date" type="date" />
-        <input class="AddTodo-button" type="button" value="Add" />
+        <input class="AddTodo-text" type="text" placeholder="what's next?">
+        <input class="AddTodo-date" type="date">
+        <input class="AddTodo-button" type="button" value="Add">
       </section>
       <section class="TodoSection">
         <div class="TodoSectionTitle">
-          <p class="TodoSectionTitle-text">Due Today</p>
-          <p class="TodoSectionTitle-remainingCount">0/4</p>
+          <p class="TodoSectionTitle-title"> Due Today </p>
+          <p class="TodoSectionTitle-remainingCount"> 0/4 </p>
         </div>
-
         <ul>
           <li class="TodoItem">
             <label class="TodoItem-container">
-              <input class="TodoItem-checkbox" type="checkbox" />
-              Submit Saas 201 project
-              <p class="TodoItem-overdueLabel">Overdue</p>
-              <a href="javascript:void(0)" class="TodoItem-delete">
-                <img src="delete.png" alt="Delete" width="20" height="25">
+              <input class="TodoItem-checkbox" type="checkbox">
+              Submit SaaS 201 project
+              <p class="TodoItem-overdueLabel"> Overdue </p>
+              <a class="TodoItem-delete" href="javascript:void(0)">
+                <img class="TodoItem-delete" src="trashcan.png">
               </a>
             </label>
           </li>
           <li class="TodoItem">
             <label class="TodoItem-container">
-              <input class="TodoItem-checkbox" type="checkbox" />
+              <input class="TodoItem-checkbox" type="checkbox">
               Call accountant
-              <a href="javascript:void(0)" class="TodoItem-delete">
-                <img src="delete.png" alt="Delete" width="20" height="25">
+              <a class="TodoItem-delete" href="javascript:void(0)">
+                <img class="TodoItem-delete" src="trashcan.png">
               </a>
-            </label>
-            </label>
             </label>
           </li>
         </ul>
-
+      </section>
+      <section class="TodoSection">
         <div class="TodoSectionTitle">
-          <p class="TodoSectionTitle-text">Due Tomorrow</p>
-          <p class="TodoSectionTitle-remainingCount">0/3</p>
+          <p class="TodoSectionTitle-title"> Due Tomorrow </p>
+          <p class="TodoSectionTitle-remainingCount"> 0/3 </p>
         </div>
-
         <ul>
           <li class="TodoItem">
             <label class="TodoItem-container">
-              <input class="TodoItem-checkbox" type="checkbox" />
+              <input class="TodoItem-checkbox" type="checkbox">
               Refill groceries
-              <a href="javascript:void(0)" class="TodoItem-delete">
-                <img src="delete.png" alt="Delete" width="20" height="25">
+              <a class="TodoItem-delete" href="javascript:void(0)">
+                <img class="TodoItem-delete" src="trashcan.png">
               </a>
             </label>
           </li>
         </ul>
-
+      </section>
+      <section class="TodoSection">
         <div class="TodoSectionTitle">
-          <p class="TodoSectionTitle-text">Remaining</p>
-          <p class="TodoSectionTitle-remainingCount">0/3</p>
+          <p class="TodoSectionTitle-title"> Remaining </p>
+          <p class="TodoSectionTitle-remainingCount"> 0/3 </p>
         </div>
-
         <ul>
           <li class="TodoItem">
             <label class="TodoItem-container">
-              <input class="TodoItem-checkbox" type="checkbox" />
-              Pay House rent bill
-              <p class="TodoItem-remainingLabel">Nov 11</p>
-              <a href="javascript:void(0)" class="TodoItem-delete">
-                <img src="delete.png" alt="Delete" width="20" height="25">
+              <input class="TodoItem-checkbox" type="checkbox">
+              Type something
+              <p class="TodoItem-overdueLabel1"> Jan 21 </p>
+              <a class="TodoItem-delete" href="javascript:void(0)">
+                <img class="TodoItem-delete" src="trashcan.png">
               </a>
-            </label>
           </li>
           <li class="TodoItem">
             <label class="TodoItem-container">
-              <input class="TodoItem-checkbox" type="checkbox" />
-              Pay Groceries bill
-              <p class="TodoItem-remainingLabel">Nov 12</p>
-              <a href="javascript:void(0)" class="TodoItem-delete">
-                <img src="delete.png" alt="Delete" width="20" height="25">
+              <input class="TodoItem-checkbox" type="checkbox">
+              Type something
+              <p class="TodoItem-overdueLabel1"> Jan 22 </p>
+              <a class="TodoItem-delete" href="javascript:void(0)">
+                <img class="TodoItem-delete" src="trashcan.png">
               </a>
-            </label>
           </li>
           <li class="TodoItem">
             <label class="TodoItem-container">
-              <input class="TodoItem-checkbox" type="checkbox" />
-              Pay TNEB bill
-              <p class="TodoItem-remainingLabel">Nov 15</p>
-              <a href="javascript:void(0)" class="TodoItem-delete">
-                <img src="delete.png" alt="Delete" width="20" height="25">
+              <input class="TodoItem-checkbox" type="checkbox">
+              Type something
+              <p class="TodoItem-overdueLabel1"> Jan 23 </p>
+              <a class="TodoItem-delete" href="javascript:void(0)">
+                <img class="TodoItem-delete" src="trashcan.png">
               </a>
-            </label>
+          </li>
+          </label>
           </li>
         </ul>
       </section>
